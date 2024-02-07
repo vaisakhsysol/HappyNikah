@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+// colors
+
+$primaryColor : #ffffff;
+$secondaryColor : #FF5B85;
+$accentColor:#FF2662;
+$inputBackgroundColor : #F2F2F2;
+$textColor : #313131;
+
+// font
+$FontSize : (
+    "small" : 12px,
+    "regular" : 16px,
+    "medium"  : 20px,
+    "big" : 30px,
+    "veryBig" : 50px,
+    "headingBig" : 60px,
+);
+
+// Display Sizes
+$lgDisplay:1440px;
+$mdlDisplay:1366px;
+$mdDisplay : 1024px;
+$tabDisplay : 768px;
+$mobileDisplay : 500px;
+$smallMobileDisplay : 320px;
+
