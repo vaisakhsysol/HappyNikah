@@ -380,4 +380,555 @@
   padding: 12px;
   text-align: center;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroContainer {
+    height: 500px;
+    background: linear-gradient(#FF2662, #FF5B85);
+    background-color: #FF2662;
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .heroContainer .heroLeft {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  .heroContainer .heroLeft h1 {
+    font-weight: 700;
+    font-size: 50px;
+    opacity: 0.9;
+    letter-spacing: 2px;
+    line-height: 64px;
+  }
+  .heroContainer .heroLeft h6 {
+    width: 100%;
+    margin-top: 24px;
+    line-height: 20px;
+    font-weight: 200;
+    font-size: 12px;
+  }
+  .heroContainer .heartOne {
+    position: relative;
+    margin-top: 8px;
+    animation: throb 3s infinite ease-in-out;
+  }
+  @keyframes throb {
+    0% {
+      width: 140px;
+    }
+    25% {
+      width: 145px;
+    }
+    50% {
+      width: 150px;
+    }
+    75% {
+      width: 145px;
+    }
+    100% {
+      width: 140px;
+    }
+  }
+  .heroContainer .heartTwo {
+    position: relative;
+    top: -450px;
+    transform: rotate(-90deg);
+    margin-left: 12px;
+    animation: throbTwo 3s infinite ease-in-out;
+  }
+  @keyframes throbTwo {
+    0% {
+      width: 160px;
+    }
+    25% {
+      width: 150px;
+    }
+    50% {
+      width: 140px;
+    }
+    75% {
+      width: 150px;
+    }
+    100% {
+      width: 160px;
+    }
+  }
+  .heroContainer .heroRight img {
+    margin-top: -64px;
+    width: 400px;
+  }
+  .heroContainer .heartThree {
+    position: relative;
+    top: -450px;
+    left: 400px;
+    width: 100px;
+    margin-top: 64px;
+    transform: rotate(-60deg);
+    display: none;
+  }
+  .featuresContainer {
+    font-family: "Poppins", sans-serif;
+    padding: 0 64px;
+    margin-top: -64px;
+  }
+  .featuresContainer h5 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .featuresContainer h5 span {
+    color: #FF2662;
+  }
+  .featuresContainer p {
+    font-family: "Signika Negative", sans-serif;
+    text-align: center;
+    padding: 0 180px;
+  }
+  .featuresContainer .features ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 12px;
+  }
+  .featuresContainer .features ul li {
+    margin-top: 32px;
+    background-color: #FF2662;
+    padding: 24px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .featuresContainer .features ul li p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 32px;
+    font-family: "Poppins", sans-serif;
+  }
+  .featuresContainer .features ul li .backgroud {
+    background-color: #FF5B85;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .shortAboutContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 180px;
+    justify-content: space-between;
+    padding: 0 64px;
+    justify-content: center;
+  }
+  .shortAboutContainer .shortAboutLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shortAboutContainer .shortAboutLeft img {
+    width: 550px;
+  }
+  .shortAboutContainer .shortAboutRight {
+    text-align: start;
+    width: 100%;
+  }
+  .shortAboutContainer .shortAboutRight h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .shortAboutContainer .shortAboutRight h3 span {
+    color: #FF2662;
+  }
+  .shortAboutContainer .shortAboutRight p {
+    width: 100%;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .shortAboutContainer .shortAboutRight button {
+    border: none;
+    background-color: #ffffff;
+    color: #FF2662;
+    width: 100%;
+    margin-top: 32px;
+  }
+  .partnersCarouselContainer {
+    margin-top: 180px;
+    padding: 0 64px;
+  }
+  .partnersCarouselContainer h3 {
+    text-align: center;
+  }
+  .partnersCarouselContainer span {
+    color: #FF2662;
+  }
+  .partnersCarouselContainer p {
+    text-align: center;
+    padding: 0 124px;
+    font-family: "Signika Negative", sans-serif;
+  }
+  .partnersCarouselContainer .item {
+    margin-top: 32px;
+    background-color: #F2F2F2;
+  }
+  .partnersCarouselContainer .item img {
+    width: 150px;
+    padding: 14px;
+  }
+  .partnersCarouselContainer .item ul {
+    padding: 2px 24px;
+    list-style: none;
+    margin-top: 24px;
+  }
+  .partnersCarouselContainer .item ul li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 4px;
+  }
+  .partnersCarouselContainer .item button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #FF2662;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #ffffff;
+  }
+  .downloadsContaier {
+    margin-top: 180px;
+    font-family: "Poppins", sans-serif;
+  }
+  .downloadsContaier h3 {
+    text-align: center;
+  }
+  .downloadsContaier h3 span {
+    color: #FF2662;
+  }
+  .downloadsContaier p {
+    text-align: center;
+    padding: 0 124px;
+  }
+  .downloadsContaier .downloads {
+    display: flex;
+    justify-content: center;
+  }
+  .downloadsContaier .downloads img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heroContainer {
+    height: 500px;
+    background: linear-gradient(#FF2662, #FF5B85);
+    background-color: #FF2662;
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .heroContainer .heroLeft {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  .heroContainer .heroLeft h1 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 50px;
+    opacity: 0.9;
+    letter-spacing: 2px;
+    line-height: 64px;
+  }
+  .heroContainer .heroLeft h6 {
+    width: 60%;
+    margin-top: 24px;
+    line-height: 20px;
+    font-weight: 200;
+    font-size: 12px;
+  }
+  .heroContainer .heartOne {
+    position: relative;
+    margin-top: 8px;
+    animation: throb 3s infinite ease-in-out;
+  }
+  @keyframes throb {
+    0% {
+      width: 140px;
+    }
+    25% {
+      width: 145px;
+    }
+    50% {
+      width: 150px;
+    }
+    75% {
+      width: 145px;
+    }
+    100% {
+      width: 140px;
+    }
+  }
+  .heroContainer .heartTwo {
+    position: relative;
+    top: -370px;
+    transform: rotate(-90deg);
+    margin-left: 12px;
+    animation: throbTwo 3s infinite ease-in-out;
+  }
+  @keyframes throbTwo {
+    0% {
+      width: 160px;
+    }
+    25% {
+      width: 150px;
+    }
+    50% {
+      width: 140px;
+    }
+    75% {
+      width: 150px;
+    }
+    100% {
+      width: 160px;
+    }
+  }
+  .heroContainer .heroRight img {
+    margin-top: -64px;
+    width: 400px;
+    display: none;
+  }
+  .heroContainer .heartThree {
+    position: relative;
+    top: -450px;
+    left: 400px;
+    width: 100px;
+    margin-top: 64px;
+    transform: rotate(-60deg);
+    display: none;
+  }
+  .registerForm {
+    margin: 64px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: -208px;
+    /* Style for the selected option */
+    /* Style for all options */
+    /* Optional: Hover effect for options */
+  }
+  .registerForm form {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid rgb(211, 211, 211);
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .registerForm form .name {
+    background-color: #F2F2F2;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .registerForm form .name input {
+    border: none;
+    background-color: #F2F2F2;
+    margin-left: 12px;
+    width: 100%;
+    padding: 15px;
+  }
+  .registerForm select {
+    border: 2px solid #F2F2F2; /* Border color */
+    background-color: #ecf0f1; /* Background color */
+    padding: 8px; /* Adjust padding as needed */
+    width: 100%;
+    border-radius: 5px; /* Add rounded corners if desired */
+  }
+  .registerForm select option:checked {
+    background-color: #FF2662; /* Background color when selected */
+    color: #fff; /* Text color when selected */
+  }
+  .registerForm select option {
+    background-color: #ecf0f1; /* Background color of unselected options */
+    color: #333; /* Text color of unselected options */
+  }
+  .registerForm select option:hover {
+    background-color: #FF5B85; /* Background color on hover */
+    color: #ffffff; /* Text color on hover */
+  }
+  .registerForm button {
+    border: none;
+    border-radius: 5px;
+    background-color: #FF2662;
+    color: #ffffff;
+    padding: 15px;
+  }
+  .featuresContainer {
+    font-family: "Poppins", sans-serif;
+    padding: 0 64px;
+    margin-top: -64px;
+  }
+  .featuresContainer h5 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .featuresContainer h5 span {
+    color: #FF2662;
+  }
+  .featuresContainer p {
+    font-family: "Signika Negative", sans-serif;
+    text-align: center;
+    padding: 0 42px;
+  }
+  .featuresContainer .features ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    gap: 12px;
+    padding: 0 128px;
+  }
+  .featuresContainer .features ul li {
+    margin-top: 32px;
+    background-color: #FF2662;
+    padding: 24px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .featuresContainer .features ul li p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 32px;
+    font-family: "Poppins", sans-serif;
+  }
+  .featuresContainer .features ul li .backgroud {
+    background-color: #FF5B85;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .shortAboutContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 180px;
+    justify-content: space-between;
+    padding: 0 64px;
+    justify-content: center;
+  }
+  .shortAboutContainer .shortAboutLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shortAboutContainer .shortAboutLeft img {
+    width: 550px;
+  }
+  .shortAboutContainer .shortAboutRight {
+    text-align: start;
+    width: 100%;
+  }
+  .shortAboutContainer .shortAboutRight h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .shortAboutContainer .shortAboutRight h3 span {
+    color: #FF2662;
+  }
+  .shortAboutContainer .shortAboutRight p {
+    width: 100%;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .shortAboutContainer .shortAboutRight button {
+    border: none;
+    background-color: #ffffff;
+    color: #FF2662;
+    width: 100%;
+    margin-top: 32px;
+  }
+  .partnersCarouselContainer {
+    margin-top: 180px;
+    padding: 0 64px;
+  }
+  .partnersCarouselContainer h3 {
+    text-align: center;
+  }
+  .partnersCarouselContainer span {
+    color: #FF2662;
+  }
+  .partnersCarouselContainer p {
+    text-align: center;
+    padding: 0 42px;
+    font-family: "Signika Negative", sans-serif;
+  }
+  .partnersCarouselContainer .item {
+    margin-top: 32px;
+    background-color: #F2F2F2;
+  }
+  .partnersCarouselContainer .item img {
+    width: 150px;
+    padding: 14px;
+  }
+  .partnersCarouselContainer .item ul {
+    padding: 2px 24px;
+    list-style: none;
+    margin-top: 24px;
+  }
+  .partnersCarouselContainer .item ul li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 4px;
+  }
+  .partnersCarouselContainer .item button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #FF2662;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #ffffff;
+  }
+  .downloadsContaier {
+    margin-top: 180px;
+    font-family: "Poppins", sans-serif;
+  }
+  .downloadsContaier h3 {
+    text-align: center;
+  }
+  .downloadsContaier h3 span {
+    color: #FF2662;
+  }
+  .downloadsContaier p {
+    text-align: center;
+    padding: 0 42px;
+  }
+  .downloadsContaier .downloads {
+    display: flex;
+    justify-content: center;
+  }
+  .downloadsContaier .downloads img {
+    width: 300px;
+  }
 }/*# sourceMappingURL=styles.css.map */
